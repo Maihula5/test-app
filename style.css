@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-color: Linen;
+	/*background-image: url(hack.jpg);*/
+	font-weight: bold;
+	font-size: 20;
+}
+
+.myform{
+	border: 10px red solid;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.myform h1{
+	text-align: center;
+}
+
+.myform .form-group{
+	padding: 10px;
+}
+
+.myform label{
+   display: block;
+}
+
+.myform input[type="text"], .myform input[type="email"], .myform input[type="password"], .myform textarea{
+	padding: 10px;
+	width: 100%;
+	margin: 10px;
+}
+
+.button{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	 margin-left: 700px; 
+}
